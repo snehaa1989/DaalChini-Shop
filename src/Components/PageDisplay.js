@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import { faTags, faShoppingCart, faIdBadge } from '@fortawesome/free-solid-svg-icons';
 import Products from './Products/Products';
 import ShoppingCart from './ShoppingCart/ShoppingCart';
@@ -46,7 +46,7 @@ const PageDisplay = () => {
   ];
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Route
         render={() => <NavBar linkObjArr={linkObjArr} />}
       />
@@ -60,7 +60,7 @@ const PageDisplay = () => {
           />
         ))}
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
