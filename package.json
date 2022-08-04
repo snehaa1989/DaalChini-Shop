@@ -2,7 +2,7 @@
   "name": "daalchini-shop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://snehaa1989.github.io/DaalChini-Shop/public",
+  "homepage": "https://snehaa1989.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
